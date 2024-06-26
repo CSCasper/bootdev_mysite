@@ -2,7 +2,6 @@ import unittest
 
 from textnode import (
     TextNode,
-    text_node_to_html_node,
     text_type_text,
     text_type_bold,
     text_type_italic,
@@ -43,6 +42,6 @@ class TestTextNode(unittest.TestCase):
         self.assertEqual(
             "TextNode(This is a text node, text, https://www.boot.dev)", repr(node)
         )
-
+ 
 if __name__ == "__main__":
     unittest.main()
