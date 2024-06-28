@@ -1,11 +1,3 @@
-tag_header_1 = "h1"
-tag_header_2 = "h2"
-tag_header_3 = "h3"
-tag_paragraph = "p"
-tag_attribute = "a"
-tag_bold = "b"
-tag_italic = "i"
-
 attribute_href = "href"
 attribute_target = "target"
 

@@ -6,7 +6,7 @@ from inline_markdown import (
     split_nodes_link,
     extract_markdown_images,
     extract_markdown_links,
-    text_to_textnodes
+    text_to_textnodes,
 )
 
 from textnode import (
@@ -218,6 +218,3 @@ class TestInlineMarkdown(unittest.TestCase):
             ],
             new_nodes
         )
-
-tester = TestInlineMarkdown()
-tester.test_text_to_textnodes()
