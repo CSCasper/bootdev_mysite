@@ -1,7 +1,8 @@
-from copy_dir_contents import copy_and_replace_directory_contents
+from copystatic import copy_files_recursively, remove_all_files
 
 def main():
-    copy_and_replace_directory_contents('static', 'public')
+    remove_all_files('public')
+    copy_files_recursively('static', 'public')
     
 if __name__ == '__main__':
     main()
