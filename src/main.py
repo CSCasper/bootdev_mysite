@@ -1,4 +1,7 @@
-from textnode import TextNode
+from copy_dir_contents import copy_and_replace_directory_contents
 
 def main():
-    TextNode("This is a text node", "bold", "https://www.boot.dev")
+    copy_and_replace_directory_contents('static', 'public')
+    
+if __name__ == '__main__':
+    main()
